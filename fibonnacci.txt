@@ -1,0 +1,12 @@
+sayi=int(input("Bir Sayı Girin:"))
+n1,n2=0,1
+toplam=0
+
+if sayi<=0:
+    print('Pozitif Bir Sayı Giriniz:')
+else:
+    for i in range(0,sayi):
+        print(toplam,end="")
+        n1=n2
+        n2=toplam
+        toplam=n1+n2
